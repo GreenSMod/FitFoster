@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "297965932724",
+    "project_id": "semiotic-nexus-309011",
+    "storage_bucket": "semiotic-nexus-309011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297965932724:android:9b78d20ecf6ce21b1e47e1",
+        "android_client_info": {
+          "package_name": "com.greensmod.FitFoster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297965932724-to7l86ea5m3r7qfu1ko2rj6jndf1cta7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greensmod.FitFoster",
+            "certificate_hash": "97e56fb55189a10479ab78d4339b66e24709d5d5"
+          }
+        },
+        {
+          "client_id": "297965932724-k47ji28frcme3ge2cpq8ckmbnnitvj5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL4ltYHL1B7VYq14T2Zad0YLI9UcK-uEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297965932724-k47ji28frcme3ge2cpq8ckmbnnitvj5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

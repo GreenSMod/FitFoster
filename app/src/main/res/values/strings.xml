@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">FitFoster</string>
+    <string name="app_version" translatable="false">1.0.0</string>
+
+    <string name="em_dash" translatable="false">—</string>
+
+    <string name="nav_counter">Main</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="text_version">Application version: 1.0.0</string>
+    <string name="text_sign_out">Sign out of account</string>
+    <string name="text_clear_database">Clear the database</string>
+
+    <string name="text_heart_points">Heart Pts</string>
+    <string name="text_steps">Steps</string>
+    <string name="text_calories">Cal</string>
+    <string name="text_distance">km</string>
+    <string name="text_time">Move Min</string>
+
+    <string name="text_day">d</string>
+    <string name="text_hour">h</string>
+    <string name="text_less_than_hour">less than 1 hour</string>
+
+    <string name="weekly_missions_text">Weekly Missions</string>
+    <string name="weekly_mission_1_text">Complete 20 daily missions (5 EP)</string>
+    <string name="weekly_mission_2_text">Complete all daily missions (20 EP)</string>
+    <string name="weekly_mission_3_text">Achieve 150 Heart Points (10 EP)</string>
+    <string name="daily_missions_text">Daily Missions</string>
+    <string name="daily_mission_1_text">Cover the distance of 3 km (1 EP)</string>
+    <string name="daily_mission_2_text">Take 5000 steps (1 EP)</string>
+    <string name="daily_mission_3_text">Reach 90 move minutes (1 EP)</string>
+    <string name="daily_mission_4_text">Achieve 25 Heart Points (2 EP)</string>
+
+    <string name="statistics_text">Statistics</string>
+    <string name="statistics_1_label" translatable="false">statistics_total_steps</string>
+    <string name="statistics_1_description">Total number of steps taken: </string>
+    <string name="statistics_2_label" translatable="false">statistics_total_heart_points</string>
+    <string name="statistics_2_description">Total number of heart points achieved: </string>
+    <string name="statistics_3_label" translatable="false">statistics_total_calories</string>
+    <string name="statistics_3_description">Total number of calories burnt: </string>
+    <string name="statistics_4_label" translatable="false">statistics_total_distance</string>
+    <string name="statistics_4_description">"Total distance covered (km): "</string>
+    <string name="statistics_5_label" translatable="false">statistics_total_time</string>
+    <string name="statistics_5_description">"Total number of move minutes reached: "</string>
+    <string name="statistics_6_label" translatable="false">statistics_total_weekly_missions</string>
+    <string name="statistics_6_description">Total number of weekly missions completed: </string>
+    <string name="statistics_7_label" translatable="false">statistics_total_daily_missions</string>
+    <string name="statistics_7_description">Total number of daily missions completed: </string>
+    <string name="statistics_8_label" translatable="false">statistics_total_all_weekly_missions</string>
+    <string name="statistics_8_description">Total number of all weekly missions completions: </string>
+    <string name="statistics_9_label" translatable="false">statistics_total_achievements</string>
+    <string name="statistics_9_description">Total number of achievements completed: </string>
+    <string name="statistics_10_label" translatable="false">statistics_total_weeks_250_heart_points</string>
+    <string name="statistics_10_description">Total number of recent consecutive weeks in which 250 heart points were scored: </string>
+    <string name="statistics_11_label" translatable="false">statistics_total_weeks_all_weekly_missions</string>
+    <string name="statistics_11_description">Total number of recent consecutive weeks in which all weekly missions have been completed: </string>
+
+    <string name="achievements_text">Achievements</string>
+    <string name="achievement_1_label" translatable="false">achievement_1</string>
+    <string name="achievement_1_name">Just little walk</string>
+    <string name="achievement_1_description">Take 20000 steps in one day</string>
+    <string name="achievement_2_label" translatable="false">achievement_2</string>
+    <string name="achievement_2_name">Weekly plan</string>
+    <string name="achievement_2_description">Achieve 250 heart points in one day</string>
+    <string name="achievement_3_label" translatable="false">achievement_3</string>
+    <string name="achievement_3_name">In pursuit of slimness</string>
+    <string name="achievement_3_description">Burn 3000 calories in one day</string>
+    <string name="achievement_4_label" translatable="false">achievement_4</string>
+    <string name="achievement_4_name">Nordic walking</string>
+    <string name="achievement_4_description">Cover the distance of 15 km in one day</string>
+    <string name="achievement_5_label" translatable="false">achievement_5</string>
+    <string name="achievement_5_name">Fitness time!</string>
+    <string name="achievement_5_description">Reach 300 move minutes in one day</string>
+    <string name="achievement_6_label" translatable="false">achievement_6</string>
+    <string name="achievement_6_name">Whole million!</string>
+    <string name="achievement_6_description">Take 1 million steps all the time</string>
+    <string name="achievement_7_label" translatable="false">achievement_7</string>
+    <string name="achievement_7_name">Walk on Padre Island</string>
+    <string name="achievement_7_description">Cover the distance of 209 km all the time</string>
+    <string name="achievement_8_label" translatable="false">achievement_8</string>
+    <string name="achievement_8_name">From Moscow to Warsaw</string>
+    <string name="achievement_8_description">Cover the distance of 1251 km all the time</string>
+    <string name="achievement_9_label" translatable="false">achievement_9</string>
+    <string name="achievement_9_name">During this time you could watch The Shawshank Redemption 100 times !!!</string>
+    <string name="achievement_9_description">Reach 14200 move minutes all the time</string>
+    <string name="achievement_10_label" translatable="false">achievement_10</string>
+    <string name="achievement_10_name">In a healthy body healthy mind!</string>
+    <string name="achievement_10_description">Achieve 250 heart points weekly throughout the year (52 weeks)</string>
+    <string name="achievement_11_label" translatable="false">achievement_11</string>
+    <string name="achievement_11_name">Fitness-Sergeant</string>
+    <string name="achievement_11_description">Complete all weekly missions once</string>
+    <string name="achievement_12_label" translatable="false">achievement_12</string>
+    <string name="achievement_12_name">Fitness-Lieutenant</string>
+    <string name="achievement_12_description">Complete all weekly missions 10 times</string>
+    <string name="achievement_13_label" translatable="false">achievement_13</string>
+    <string name="achievement_13_name">Fitness-Major</string>
+    <string name="achievement_13_description">Complete all weekly missions 25 times</string>
+    <string name="achievement_14_label" translatable="false">achievement_14</string>
+    <string name="achievement_14_name">Fitness-Colonel</string>
+    <string name="achievement_14_description">Complete all weekly missions 50 times</string>
+    <string name="achievement_15_label" translatable="false">achievement_15</string>
+    <string name="achievement_15_name">Fitness-General</string>
+    <string name="achievement_15_description">Complete all weekly missions throughout the year (52 weeks)</string>
+
+    <string name="wardrobe_texture_1">Shadow</string>
+    <string name="wardrobe_texture_2">Arizona</string>
+    <string name="wardrobe_body_1">Navy long-sleeve shirt</string>
+    <string name="wardrobe_body_2">Yellow long-sleeve shirt</string>
+    <string name="wardrobe_body_3">Red long-sleeve shirt</string>
+    <string name="wardrobe_body_4">Green long-sleeve shirt</string>
+    <string name="wardrobe_body_5">Pink long-sleeve shirt</string>
+
+    <string name="wardrobe_text">Wardrobe</string>
+
+</resources>

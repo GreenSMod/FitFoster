@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_counter_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressSteps"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_shape_s"
+        android:indeterminate="false"
+        android:max="5000"
+        android:progress="200"
+        android:progressDrawable="@drawable/circular_progress_bar_s" />
+
+    <ProgressBar
+        android:id="@+id/progressHeartPoints"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="240dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_shape_hp"
+        android:indeterminate="false"
+        android:max="25"
+        android:progress="1"
+        android:progressDrawable="@drawable/circular_progress_bar_hp" />
+
+    <TextView
+        android:id="@+id/heartPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/progressHeartPoints"
+        android:layout_alignEnd="@id/progressHeartPoints"
+        android:layout_alignBottom="@id/progressSteps"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/em_dash"
+        android:textAlignment="center"
+        android:textColor="@color/turquoise"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/progressHeartPoints"
+        android:layout_alignEnd="@id/progressHeartPoints"
+        android:layout_alignBottom="@id/progressSteps"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/em_dash"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hint_heart_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressHeartPoints"
+        android:layout_alignStart="@id/progressHeartPoints"
+        android:layout_marginTop="10dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:text="@string/text_heart_points"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:drawableLeftCompat="@drawable/ic_heart" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressHeartPoints"
+        android:layout_alignEnd="@id/progressHeartPoints"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@id/hint_heart_points">
+
+        <TextView
+            android:id="@+id/hint_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="right"
+            android:gravity="right"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:text="@string/text_steps"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:drawableLeftCompat="@drawable/ic_foot"
+            tools:ignore="RtlHardcoded" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hint_heart_points"
+        android:layout_alignStart="@id/progressHeartPoints"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/em_dash"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/calories_text"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calories"
+        android:layout_alignStart="@id/progressHeartPoints"
+        android:gravity="center"
+        android:text="@string/text_calories"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hint_heart_points"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@id/time"
+        android:layout_toEndOf="@id/calories"
+        android:gravity="center"
+        android:text="@string/em_dash"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/distance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distance"
+        android:layout_toStartOf="@id/time_text"
+        android:layout_toEndOf="@id/calories_text"
+        android:gravity="center"
+        android:text="@string/text_distance"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hint_heart_points"
+        android:layout_alignEnd="@id/progressHeartPoints"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/em_dash"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_alignEnd="@id/progressHeartPoints"
+        android:gravity="center"
+        android:text="@string/text_time"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/progressHeartPoints"
+        android:layout_alignTop="@id/progressHeartPoints"
+        android:layout_alignEnd="@id/progressHeartPoints"
+        android:layout_alignBottom="@id/progressHeartPoints"
+        android:background="@android:color/transparent" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/time_text"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/weekly_mission_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:text="@string/weekly_missions_text"
+                android:textColor="@color/carrot"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/weekly_missions_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weekly_mission_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="@string/em_dash"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/weekly_mission_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weekly_missions_time"
+                android:layout_centerHorizontal="true"
+                android:text="@string/weekly_mission_1_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ProgressBar
+                android:id="@+id/weekly_mission_1_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/weekly_mission_1"
+                android:layout_centerHorizontal="true"
+                android:max="20" />
+
+            <TextView
+                android:id="@+id/weekly_mission_1_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/weekly_mission_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/carrot"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/weekly_mission_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weekly_mission_1_progress_text"
+                android:layout_centerHorizontal="true"
+                android:text="@string/weekly_mission_2_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ProgressBar
+                android:id="@+id/weekly_mission_2_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/weekly_mission_2"
+                android:layout_centerHorizontal="true"
+                android:max="28" />
+
+            <TextView
+                android:id="@+id/weekly_mission_2_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/weekly_mission_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/carrot"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/weekly_mission_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weekly_mission_2_progress_text"
+                android:layout_centerHorizontal="true"
+                android:text="@string/weekly_mission_3_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ProgressBar
+                android:id="@+id/weekly_mission_3_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/weekly_mission_3"
+                android:layout_centerHorizontal="true"
+                android:max="150" />
+
+            <TextView
+                android:id="@+id/weekly_mission_3_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/weekly_mission_3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/carrot"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/daily_mission_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weekly_mission_3_progress"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/daily_missions_text"
+                android:textColor="@color/carrot"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/daily_missions_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/daily_mission_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="@string/em_dash"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daily_mission_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/daily_missions_time"
+                android:layout_centerHorizontal="true"
+                android:text="@string/daily_mission_1_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ProgressBar
+                android:id="@+id/daily_mission_1_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_1"
+                android:layout_centerHorizontal="true"
+                android:max="300" />
+
+            <TextView
+                android:id="@+id/daily_mission_1_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/carrot"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/daily_mission_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/daily_mission_1_progress_text"
+                android:layout_centerHorizontal="true"
+                android:text="@string/daily_mission_2_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ProgressBar
+                android:id="@+id/daily_mission_2_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_2"
+                android:layout_centerHorizontal="true"
+                android:max="5000" />
+
+            <TextView
+                android:id="@+id/daily_mission_2_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/carrot"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/daily_mission_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/daily_mission_2_progress_text"
+                android:layout_centerHorizontal="true"
+                android:text="@string/daily_mission_3_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ProgressBar
+                android:id="@+id/daily_mission_3_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_3"
+                android:layout_centerHorizontal="true"
+                android:max="90" />
+
+            <TextView
+                android:id="@+id/daily_mission_3_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/carrot"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/daily_mission_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/daily_mission_3_progress_text"
+                android:layout_centerHorizontal="true"
+                android:text="@string/daily_mission_4_text"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <ProgressBar
+                android:id="@+id/daily_mission_4_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:max="25" />
+
+            <TextView
+                android:id="@+id/daily_mission_4_progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/daily_mission_4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/carrot"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

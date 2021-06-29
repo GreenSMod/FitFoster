@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <Button-->
+<!--        android:id="@+id/clear_database_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_above="@id/sign_out_button"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="60dp"-->
+<!--        android:text="@string/text_clear_database" />-->
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/version"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="@string/text_sign_out" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/text_version"
+        android:textSize="14sp" />
+
+</RelativeLayout>

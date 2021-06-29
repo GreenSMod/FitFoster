@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nav_counter">Главная</string>
+    <string name="nav_home">Дом</string>
+    <string name="nav_profile">Профиль</string>
+
+    <string name="text_version">Версия приложения: 1.0.0</string>
+    <string name="text_sign_out">Выйти из аккаунта</string>
+    <string name="text_clear_database">Очистить базу данных</string>
+
+    <string name="text_heart_points">Баллы кардио</string>
+    <string name="text_steps">Шаги</string>
+    <string name="text_calories">ккал</string>
+    <string name="text_distance">км</string>
+    <string name="text_time">Мин. Активн.</string>
+
+    <string name="text_day">д</string>
+    <string name="text_hour">ч</string>
+    <string name="text_less_than_hour">менее 1 часа</string>
+
+    <string name="weekly_missions_text">Еженедельные Миссии</string>
+    <string name="weekly_mission_1_text">Выполните 20 ежедневных миссий (5 EP)</string>
+    <string name="weekly_mission_2_text">Выполните все ежедневные миссии (20 EP)</string>
+    <string name="weekly_mission_3_text">Наберите 150 баллов кардио (10 EP)</string>
+    <string name="daily_missions_text">Ежедневные Миссии</string>
+    <string name="daily_mission_1_text">Преодолейте расстояние в 3 км (1 EP)</string>
+    <string name="daily_mission_2_text">Сделайте 5000 шагов (1 EP)</string>
+    <string name="daily_mission_3_text">Достигните 90 минут активности (1 EP)</string>
+    <string name="daily_mission_4_text">Наберите 25 баллов кардио (2 EP)</string>
+
+    <string name="statistics_text">Статистика</string>
+    <string name="statistics_1_description">Общее количество сделанных шагов: </string>
+    <string name="statistics_2_description">"Общее количество набранных баллов кардиотренировок: "</string>
+    <string name="statistics_3_description">Общее количество сожжённых калорий: </string>
+    <string name="statistics_4_description">"Общее пройденное расстояние: "</string>
+    <string name="statistics_5_description">"Общее количество минут активности: "</string>
+    <string name="statistics_6_description">Общее количество выполненных еженедельных миссий: </string>
+    <string name="statistics_7_description">Общее количество выполненных ежедневных миссий: </string>
+    <string name="statistics_8_description">Общее количество выполнений всех еженедельных миссий: </string>
+    <string name="statistics_9_description">Общее количество выполненных достижений: </string>
+    <string name="statistics_10_description">"Общее количество последних недель подряд, в течение которых было набрано 250 баллов кардиотренировок: "</string>
+    <string name="statistics_11_description">"Общее количество последних недель подряд, в течение которых были выполнены все еженедельные миссии: "</string>
+
+    <string name="achievements_text">Достижения</string>
+    <string name="achievement_1_name">Прогулочка</string>
+    <string name="achievement_1_description">Сделайте 20000 шагов за один день</string>
+    <string name="achievement_2_name">Недельный план</string>
+    <string name="achievement_2_description">Наберите 250 баллов кардиотренировок за один день</string>
+    <string name="achievement_3_name">В погоне за стройностью</string>
+    <string name="achievement_3_description">Сожгите 3000 калорий за один день</string>
+    <string name="achievement_4_name">Скандинавская ходьба</string>
+    <string name="achievement_4_description">Преодолейте расстояние в 15 км за один день</string>
+    <string name="achievement_5_name">Время фитнеса!</string>
+    <string name="achievement_5_description">Достигните 300 минут активности за один день</string>
+    <string name="achievement_6_name">Целый миллион!</string>
+    <string name="achievement_6_description">Сделайте 1 млн шагов за всё время</string>
+    <string name="achievement_7_name">Прогулка по острову Падре</string>
+    <string name="achievement_7_description">Преодолейте расстояние в 209 км за всё время</string>
+    <string name="achievement_8_name">Как от Москвы до Варшавы</string>
+    <string name="achievement_8_description">Преодолейте расстояние в 1251 км за всё время</string>
+    <string name="achievement_9_name">За это время вы могли 100 раз посмотреть фильм «Побег из Шоушенка» !!!</string>
+    <string name="achievement_9_description">Достигните 14200 минут активности за всё время</string>
+    <string name="achievement_10_name">В здоровом теле - здоровый дух!</string>
+    <string name="achievement_10_description">Набирайте 250 баллов кардиотренировок еженедельно на протяжении года (52 недели)</string>
+    <string name="achievement_11_name">Фитнес-Сержант</string>
+    <string name="achievement_11_description">Выполните все еженедельные миссии один раз</string>
+    <string name="achievement_12_name">Фитнес-Лейтенант</string>
+    <string name="achievement_12_description">Выполните все еженедельные миссии 10 раз</string>
+    <string name="achievement_13_name">Фитнес-Майор</string>
+    <string name="achievement_13_description">Выполните все еженедельные миссии 25 раз</string>
+    <string name="achievement_14_name">Фитнес-Полковник</string>
+    <string name="achievement_14_description">Выполните все еженедельные миссии 50 раз</string>
+    <string name="achievement_15_name">Фитнес-Генерал</string>
+    <string name="achievement_15_description">Выполните все еженедельные миссии на протяжении года (52 недели)</string>
+
+    <string name="wardrobe_texture_1">Шэдоу</string>
+    <string name="wardrobe_texture_2">Аризона</string>
+    <string name="wardrobe_body_1">Темно-синяя футболка с длинным рукавом</string>
+    <string name="wardrobe_body_2">Жёлтая футболка с длинным рукавом</string>
+    <string name="wardrobe_body_3">Красная футболка с длинным рукавом</string>
+    <string name="wardrobe_body_4">Зелёная футболка с длинным рукавом</string>
+    <string name="wardrobe_body_5">Розовая футболка с длинным рукавом</string>
+
+    <string name="wardrobe_text">Гардероб</string>
+
+</resources>
